@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PirateStay</title>
+</head>
+<body>
+    <h1>Entre em contato conosco:</h1>
+    <h2>
+        <p>Reservas: +55 (18) 1716–1718</p>
+        <p>WhatsApp:+55 (18) 1650-1730</p>
+        <p>E-mail:reservas.piratestay@coldmail.com</p>
+    </h2>
+
+    <h2>Fale Conosco:</h2>
+    
+    <form action="salvar-contato.php" method="get">
+
+        <label  for="campo-nome">Nome</label>
+        <input type="text" required minlength="3" maxlength="40" id="campo-nome" name="nome">
+        <br>
+        
+        <br>
+        <label for="campo-data-nascimento">Data de Nascimento</label>
+        <input type="date" required name="data-de-nascimento" id="campo-data-nascimento">
+        <br>
+
+        <br>
+        <label for="campo-email">E-Mail</label>
+        <input type="email" required name="e-mail" id="campo-email">
+        <br>
+
+        <br>
+        <label for="campo-motivo-contato">Motivo do Contato</label>
+        <br>
+        
+        <textarea name="motivo-contato" rows="20" cols="50" id="campo-motivo-contato"></textarea>
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
