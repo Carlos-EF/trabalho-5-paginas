@@ -1,0 +1,38 @@
+@font-face {
+    font-family:'Pirata One';
+    src: url(/paginas/assets/PirataOne.ttf) format(truetype);
+}
+
+body {
+    font-family: 'Pirata One';
+    font-size: large;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #084075;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+#voltar {
+    text-decoration: none;
+    padding: 3px 3px;
+    font-size: large;
+    display: inline-block;
+    color: #fff;
+}
+
+#voltar:hover{
+    background-color: #0000ff;
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 4px solid #fff;
+}
+
+img{
+    border: 4px solid #000;
+    border-radius: 5px;
+}
