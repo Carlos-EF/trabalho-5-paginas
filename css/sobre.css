@@ -9,6 +9,7 @@ body {
     margin: 0px;
     border: 0px;
     padding: 0px;
+    text-align: center;
 }
 
 a{
@@ -30,6 +31,51 @@ a{
 }
 
 #voltar:hover{
+    background-color: #082175;
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 4px solid #fff;
+}
+
+#hospedagens{
+    text-decoration: none;
+    padding: 3px;
+    font-size: large;
+    display: inline-block;
+    color: #fff;
+}
+
+#hospedagens:hover{
+    background-color: #082175;
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 4px solid #fff;
+}
+
+#pagamento{
+    text-decoration: none;
+    padding: 3px;
+    font-size: large;
+    display: inline-block;
+    color: #fff;
+}
+
+#pagamento:hover{
+    background-color: #082175;
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 4px solid #fff;
+}
+
+#contato{
+    text-decoration: none;
+    padding: 3px;
+    font-size: large;
+    display: inline-block;
+    color: #fff;
+}
+
+#contato:hover{
     background-color: #082175;
     display: inline-block;
     box-sizing: border-box;
