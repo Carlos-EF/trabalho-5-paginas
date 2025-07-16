@@ -1,6 +1,6 @@
 @font-face {
     font-family:'Pirata One';
-    src: url(/paginas/assets/PirataOne.ttf) format(truetype);
+    src: url(/assets/Pirata\ One.ttf) format(truetype);
 }
 
 body {
@@ -9,6 +9,10 @@ body {
     margin: 0px;
     border: 0px;
     padding: 0px;
+}
+
+a{
+    text-decoration: none;
 }
 
 .navbar {
@@ -26,7 +30,7 @@ body {
 }
 
 #voltar:hover{
-    background-color: #0000ff;
+    background-color: #082175;
     display: inline-block;
     box-sizing: border-box;
     border-bottom: 4px solid #fff;

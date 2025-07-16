@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Pirata One';
+    src: url(/assets/Pirata\ One.ttf) format(truetype);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Pirata One';
+    font-size: larger;
+    text-align: center;
+}
+
+a{
+  text-decoration: none;  
+}
+
+.navbar{
+    background-color: #084075;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+#sobre{
+    text-decoration: none;
+    padding: 3px 3px;
+    font-size: large;
+    display: inline-block;
+    color: #fff;
+}
+
+#sobre:hover{
+     background-color: #082175;
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 4px solid #fff;
+}
+
+#hospedagens{
+    text-decoration: none;
+    padding: 3px 3px;
+    font-size: large;
+    display: inline-block;
+    color: #fff;
+}
+
+#hospedagens:hover{
+    background-color: #082175;
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 4px solid #fff;
+}
+
+#pagamento{
+    text-decoration: none;
+    padding: 3px 3px;
+    font-size: large;
+    display: inline-block;
+    color: #fff;
+}
+
+#pagamento:hover{
+    background-color: #082175;
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 4px solid #fff;
+}
+
+#contato{
+    text-decoration: none;
+    padding: 3px;
+    font-size: large;
+    display: inline-block;
+    color: #fff;
+}
+
+#contato:hover{
+    background-color: #082175;
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 4px solid #fff;
+}
