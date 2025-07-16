@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Pirata One';
-    font-size: large;
+    font-size: larger;
     margin: 0px;
     border: 0px;
     padding: 0px;
@@ -25,7 +25,6 @@ a{
 #voltar {
     text-decoration: none;
     padding: 3px 3px;
-    font-size: large;
     display: inline-block;
     color: #fff;
 }
@@ -40,7 +39,6 @@ a{
 #hospedagens{
     text-decoration: none;
     padding: 3px;
-    font-size: large;
     display: inline-block;
     color: #fff;
 }
@@ -55,7 +53,6 @@ a{
 #pagamento{
     text-decoration: none;
     padding: 3px;
-    font-size: large;
     display: inline-block;
     color: #fff;
 }
@@ -70,7 +67,6 @@ a{
 #contato{
     text-decoration: none;
     padding: 3px;
-    font-size: large;
     display: inline-block;
     color: #fff;
 }

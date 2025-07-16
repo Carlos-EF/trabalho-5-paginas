@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Pirata One';
+    src: url(/assets/Pirata\ One.ttf) format(truetype);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+    font-family: 'Pirata One';
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #084075;
+    font-family: 'Arial';
+    box-sizing: border-box;
+}
+
+#voltar {
+    padding: 3px;
+    color: #fff;
+    display: inline-block;
+}
+
+#voltar:hover {
+    background-color: #082175;
+    border-bottom: 4px solid #fff;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#sobre {
+    padding: 3px;
+    color: #fff;
+    display: inline-block;
+}
+
+#sobre:hover {
+    background-color: #082175;
+    border-bottom: 4px solid #fff;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#pagamento {
+     padding: 3px;
+    color: #fff;
+    display: inline-block;
+}
+
+#pagamento:hover {
+    background-color: #082175;
+    border-bottom: 4px solid #fff;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#contato {
+    padding: 3px;
+    color: #fff;
+    display: inline-block;
+}
+
+#contato:hover {
+    background-color: #082175;
+    border-bottom: 4px solid #fff;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+table{
+    text-align: center;
+    display: inline-block;
+}
