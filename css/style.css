@@ -22,7 +22,7 @@ nav {
     display: flex;
     gap: 20px;
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
 }
 
