@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-
     <title>PirateStay</title>
 </head>
 <body>
@@ -14,7 +12,7 @@
     <a href="hospedagens.html" class="navbar">Hospedagens</a> 
     <a href="preco-pagamento.html" class="navbar">Preços</a>
     <a href="contato.html" class="navbar">Contato</a>
-    </nav>>
+    </nav>
     
     <h1>Reserve já a sua proxima navegação!</h1>
     <h2>
@@ -24,30 +22,34 @@
 
     <h2>Fale Conosco:</h2>
     
+    <div class="form-contato">
     <form action="salvar-contato.php" method="get">
+        <div class="custom-form">
         <label  for="campo-nome">Nome</label>
         <input type="text" required minlength="3" maxlength="40" id="campo-nome" name="nome">
-        <br>
+        </div>
         
-        <br>
+        <div class="custom-form">
         <label for="campo-data-nascimento">Data de Nascimento</label>
         <input type="date" required name="data-de-nascimento" id="campo-data-nascimento">
-        <br>
+        </div>
 
-        <br>
+        <div class="custom-form">
         <label for="campo-email">E-Mail</label>
         <input type="email" required name="e-mail" id="campo-email">
-        <br>
+        </div>
 
-        <br>
+        <div class="custom-form">
         <label for="campo-motivo-contato">Motivo do Contato</label>
-        <br>
+        </div>
         
-        <textarea name="motivo-contato" rows="20" cols="50" id="campo-motivo-contato"></textarea>
-        <br>
+        <textarea name="motivo-contato" rows="20" cols="50" id="campo-motivo-contato"></textarea>    
 
+        <div class="custom-form">
         <button type="submit">Enviar</button>
+        </div>
     </form>
+    </div>
 
     <footer class="rodape">
         <p>Criado por Jack Sparrow.</p>
