@@ -1,0 +1,18 @@
+h1 {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#pirata-logo {
+    display: block;
+    margin: auto;
+    align-content: center;
+    padding: 30px;
+}
+
+h2 {
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+}

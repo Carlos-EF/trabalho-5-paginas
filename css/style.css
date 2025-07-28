@@ -26,7 +26,7 @@ a {
 nav {
     display: flex;
     gap: 20px;
-    background:linear-gradient(#0838a0, #0868a0, #0889a0 );
+    background:linear-gradient( to right, #012e46, #012e46, #012e46, #01517c, #01517c, #016499, #016499);
     justify-content: center;
 }
 
@@ -35,7 +35,7 @@ footer {
     text-align: center;
     position: absolute;
     bottom: 0;
-    background:linear-gradient(#0838a0, #0868a0, #0889a0 );
+    background:linear-gradient( to right, #012e46, #012e46, #012e46, #01517c, #01517c, #016499, #016499);
     width: 100%;
     height: 3.5rem;
 }
@@ -45,7 +45,7 @@ footer {
 }
 
 .navbar:hover {
-    background-color: #0838a0;
+    background-color: #012e46;
     border-radius: 5px;
     border-bottom: 5px solid #fff;
     box-sizing: content-box;

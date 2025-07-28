@@ -1,0 +1,39 @@
+img {
+    margin: auto;
+    display: block;
+    border: 5px solid #000;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#sub-sobre {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.promessas {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.box-promessas {
+    display: flex;
+    justify-content: center;
+}
+
+.promessas-p {
+    text-align: start;
+}
