@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contato.css">
     <title>PirateStay</title>
 </head>
 <body>
@@ -23,36 +24,37 @@
         <p>E-Mail:<a href="mailto:reservas.piratestay@yahoo.com.br">reservas.piratestay@yahoo.com.br</a></p>
     </h2>
 
-    <h2>Fale Conosco:</h2>
-    
-    <div class="form-contato">
-    <form action="salvar-contato.php" method="get">
+     <div class="box-form">
+        <div class="form-contato">
+        <form action="index.html" method="post">
         <div class="custom-form">
-        <label  for="campo-nome">Nome</label>
-        <input type="text" required minlength="3" maxlength="40" id="campo-nome" name="nome">
-        </div>
+            <h2>Fale Conosco:</h2>
+            <label  for="campo-nome">Nome:</label>
+            <input type="text" required minlength="3" maxlength="40" id="campo-nome" name="nome">
+            </div>
         
-        <div class="custom-form">
-        <label for="campo-data-nascimento">Data de Nascimento</label>
-        <input type="date" required name="data-de-nascimento" id="campo-data-nascimento">
-        </div>
+            <div class="custom-form">
+            <label for="campo-data-nascimento">Data de Nascimento:</label>
+            <input type="date" required name="data-de-nascimento" id="campo-data-nascimento">
+            </div>
 
-        <div class="custom-form">
-        <label for="campo-email">E-Mail</label>
-        <input type="email" required name="e-mail" id="campo-email">
-        </div>
+            <div class="custom-form">
+            <label for="campo-email">E-Mail:</label>
+            <input type="email" required name="e-mail" id="campo-email">
+            </div>
 
-        <div class="custom-form">
-        <label for="campo-motivo-contato">Motivo do Contato</label>
-        </div>
+            <div class="custom-form">
+            <label for="campo-motivo-contato">Motivo do Contato:</label>
+            </div>
         
-        <textarea name="motivo-contato" rows="20" cols="50" id="campo-motivo-contato"></textarea>    
+            <textarea name="motivo-contato" rows="20" cols="50" id="campo-motivo-contato"></textarea>    
 
-        <div class="custom-form">
-        <button type="submit">Enviar</button>
+            <div class="custom-form">
+            <button class="btn" type="submit">ENVIAR</button>
+            </div>
+        </form>
         </div>
-    </form>
-    </div>
+     </div>
     </div>
 
     <footer class="rodape">
